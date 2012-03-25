@@ -23,3 +23,12 @@ First week focus will be
 
 23/3
 
+24/3
+- First try with Intents, 
+* starting web search with "Intent.ACTION_WEB_SEARCH",
+* starting dial with "Intent.ACTION_DIAL"
+25/3
+
+
+
+
