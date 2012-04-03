@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<EditText android:layout_width="150dip" android:layout_height="wrap_content"
+     android:textSize="18sp" android:id="@+id/txt_username" android:layout_y="132dip"
+      android:layout_x="128dip" android:inputType="text"></EditText>
+
+<EditText android:layout_width="150dip" android:layout_height="wrap_content"
+     android:textSize="18sp" android:password="true" android:id="@+id/txt_password"
+      android:layout_x="128dip" android:layout_y="192dip" android:inputType="text"></EditText>
+
+<Button android:layout_width="100dip" android:layout_height="wrap_content"
+     android:id="@+id/btn_login" android:layout_x="155dip" android:layout_y="252dip"
+      android:text="Login"></Button>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+     android:id="@+id/lbl_username" android:text="User Name" android:layout_x="37dip"
+      android:layout_y="150dip"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+     android:id="@+id/lbl_password" android:text="Password" android:layout_y="207dip"
+      android:layout_x="50dip"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+     android:id="@+id/lbl_top" android:textSize="16sp" android:typeface="sans"
+      android:text="Please Login First" android:layout_x="29dip" android:layout_y="94dip"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+     android:layout_y="312dip" android:layout_x="50dip" android:id="@+id/lbl_result"></TextView>
+</AbsoluteLayout>

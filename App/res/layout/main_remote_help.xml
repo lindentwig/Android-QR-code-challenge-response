@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+ <RadioGroup
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:text="@string/OTL" android:textSize="12dp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/RPC"
+                    android:textSize="12dp" />
+        
+</RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/r1"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/gen" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoCompleteTextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_scan" android:layout_marginTop="20dp" android:enabled="false" android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/r2"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoCompleteTextView03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:enabled="false" android:layout_marginRight="10dp" android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send" android:enabled="false" android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
