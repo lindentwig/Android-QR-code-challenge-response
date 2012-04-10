@@ -1,2 +1,12 @@
 Project
 - Android QR-code challenge response
+
+- This first contribution is a login-application with
+ a php-script which gets the user into the remote help
+ session. The user needs to specify its own path to the
+ php-script.
+
+- I've also included my implementation of ZXing barcode
+ scanner. And restricted it to only qr code. It's
+ runnable on it's own and easy to implement into your
+ own project.

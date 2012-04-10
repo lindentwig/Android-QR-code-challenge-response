@@ -1,4 +1,54 @@
+First week focus will be
+
+* research the background about QR in general
+* read about android programming
+* search for code examples about qr-encoding
+
 19/3
 
 - Configuring github account
 - Getting familiar with the site
+. Searching for qr-code examples
+
+20/3
+
+
+21/3
+- Finding zxing(zebra crossing) barcode scanner
+- http://stackoverflow.com/questions/5604550/calling-barcode-scanner-on-a-button-click-in-android-application
+- Learning about the android intent concept
+
+22/3
+- Continue on learning how the intent works
+
+23/3
+
+24/3
+- First try with Intents, 
+* starting web search with "Intent.ACTION_WEB_SEARCH",
+* starting dial with "Intent.ACTION_DIAL"
+25/3
+
+
+26/3
+-Breakthrough, found an easy way to implement barcode scanner on
+http://tekeye.biz/2012/scan-barcode-from-android-app
+
+- Starting on php script and database connection
+
+27/3
+- Continuing on php login script
+- Starting with creating app 
+
+28/3
+- Adding code for barcode, login
+
+
+2/4
+- This weeks focus will be on examine my code and make up some guidelines on how to explain it
+for later. I will draw up some charts on the communication and try to really understand every part of my code
+
+- I will put up my code so far, which is a login-script and the beginning of an application for a
+ remote help session. 
+
+
