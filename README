@@ -10,3 +10,11 @@ Project
  scanner. And restricted it to only qr code. It's
  runnable on it's own and easy to implement into your
  own project.
+
+- Currently this app communicates with a php-script to allow login. 
+  And inside one are suppose to start up a challenge-response chain where
+  a client user are in need of help.
+  
+
+1. To run this code you need to use your own php-script. I've written out where this should be done. Logically it's
+   where I create my httppost object. 
