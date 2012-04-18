@@ -16,5 +16,5 @@ Project
   a client user are in need of help.
   
 
-1. To run this code you need to use your own php-script. I've written out where this should be done. Logically it's
-   where I create my httppost object. 
+1. To run this code you need to use your own php-script. I've written out where this should be done.
+   It's where I create my httppost object. 
