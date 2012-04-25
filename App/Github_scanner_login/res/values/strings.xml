@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Scanner_LoginActivity!</string>
+    <string name="app_name">Linkdroid login</string>
+    
+    <string name="hello_scan">QR Login!</string>
+    <string name="app_name_scan">Scan QR code</string>
+    <string name="qr">QR Scan</string>
+    <string name="send">Submit</string>
+    <string name="press_button">Press the button to start a scan</string>
+    <string name="ready">Ready</string>
+    <string name="OTL">One time logon</string>
+    <string name="RPC">Remote password change</string>
+    <string name="remote">Remote help</string>
+    <string name="r1">Response one</string>
+    <string name="r2">Response two</string>
+    <string name="gen">Generate</string>
+    
+    <string name="warning_title">Barcode Scanner Warning</string>
+    <string name="warning_text">You need to download and install the android application Barcode Scanner.
+         You can do that by entering google play through this link below.</string>
+        
+    <string name="play">Go to google play</string>
+    
+    
+</resources>
