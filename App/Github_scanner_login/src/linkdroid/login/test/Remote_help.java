@@ -259,7 +259,6 @@ public class Remote_help extends Activity implements OnClickListener{
 	              Log.w("Linkdroid", "Fail"); //
 	              
 	              resp2 = (TextView)findViewById(R.id.resp_2);
-	              // Generate second response
 	              resp2.setText("QR code didn't match");
 	             }else
 	             {
